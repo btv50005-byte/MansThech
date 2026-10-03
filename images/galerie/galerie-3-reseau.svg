@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <defs>
+    <linearGradient id="galBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#082F49"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#galBg3)" rx="12"/>
+  
+  <g transform="translate(60, 70)">
+    <rect width="380" height="210" rx="10" fill="#061B2B" stroke="#00E5FF" stroke-width="2"/>
+    <circle cx="190" cy="65" r="32" fill="#0C4A6E"/>
+    <text x="174" y="74" font-size="28">🌐</text>
+    <text x="190" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Réseaux &amp; Baies de Brassage</text>
+    <text x="190" y="148" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#7DD3FC" text-anchor="middle">Câblage RJ45 • Brassage • Switcheur Gigabit • Patch panel</text>
+    <rect x="90" y="165" width="200" height="28" rx="14" fill="#083344" stroke="#00E5FF" stroke-width="1"/>
+    <text x="190" y="183" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#BAE6FD" text-anchor="middle">📷 Emplacement photo réseau</text>
+  </g>
+</svg>

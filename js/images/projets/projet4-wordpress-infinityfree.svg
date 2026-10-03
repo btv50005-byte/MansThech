@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1A2F"/>
+      <stop offset="100%" stop-color="#142646"/>
+    </linearGradient>
+    <linearGradient id="wpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21759B"/>
+      <stop offset="100%" stop-color="#00A0D2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#bg4)" rx="16"/>
+
+  <g transform="translate(50, 40)">
+    <!-- Main Panel -->
+    <rect width="500" height="300" rx="12" fill="#0A0F1D" stroke="#1E293B" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect width="500" height="42" rx="12" fill="#152037"/>
+    <rect y="30" width="500" height="12" fill="#152037"/>
+    
+    <!-- WordPress W logo circle -->
+    <circle cx="28" cy="21" r="13" fill="#21759B"/>
+    <text x="21" y="27" font-family="'Georgia', serif" font-size="16" font-weight="bold" fill="#FFFFFF">W</text>
+    <text x="50" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">WordPress Dashboard • Hébergement InfinityFree</text>
+
+    <!-- Side Menu Mockup -->
+    <rect x="15" y="55" width="120" height="230" rx="6" fill="#11192C"/>
+    <text x="28" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#38BDF8">📊 Tableau de bord</text>
+    <text x="28" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">📝 Articles</text>
+    <text x="28" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">📄 Pages</text>
+    <text x="28" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">🎨 Apparence</text>
+    <text x="28" y="180" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">🔌 Extensions</text>
+    <text x="28" y="205" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">⚙️ Réglages</text>
+
+    <!-- Content Workspace -->
+    <rect x="150" y="55" width="335" height="105" rx="8" fill="#16223B" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="170" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Configuration CMS WordPress</text>
+    <text x="170" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Base de données MySQL configurée • Serveur Apache</text>
+    <text x="170" y="122" font-family="'Fira Code', monospace" font-size="9" fill="#38BDF8">Hôte : sqlXXX.infinityfree.com | PHP 8.x</text>
+    <rect x="170" y="132" width="110" height="18" rx="4" fill="#10B981" opacity="0.9"/>
+    <text x="178" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">✓ Base connectée</text>
+
+    <!-- InfinityFree CPanel Details -->
+    <rect x="150" y="172" width="335" height="113" rx="8" fill="#0C1322" stroke="#334155" stroke-width="1"/>
+    <text x="170" y="197" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="bold" fill="#F59E0B">InfinityFree Web Hosting Stack</text>
+    <text x="170" y="217" font-family="'Fira Code', monospace" font-size="9" fill="#CBD5E1">• Nom de domaine / sous-domaine actif</text>
+    <text x="170" y="235" font-family="'Fira Code', monospace" font-size="9" fill="#CBD5E1">• Certificat SSL Let's Encrypt HTTPS activé</text>
+    <text x="170" y="253" font-family="'Fira Code', monospace" font-size="9" fill="#CBD5E1">• Gestionnaire de fichiers FTP &amp; phpMyAdmin</text>
+    <text x="170" y="271" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#38BDF8">Environnement de test et d'apprentissage fonctionnel</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1320"/>
+      <stop offset="100%" stop-color="#141D2D"/>
+    </linearGradient>
+    <linearGradient id="cctvGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#bg5)" rx="16"/>
+
+  <!-- CCTV Multi-view monitoring screen -->
+  <g transform="translate(50, 40)">
+    <rect width="500" height="300" rx="12" fill="#060A12" stroke="#1E293B" stroke-width="2"/>
+    
+    <!-- Top bar NVR -->
+    <rect width="500" height="36" rx="12" fill="#0F172A"/>
+    <rect y="24" width="500" height="12" fill="#0F172A"/>
+    <!-- Rec dot pulsing -->
+    <circle cx="25" cy="18" r="6" fill="#EF4444"/>
+    <text x="38" y="22" font-family="'Fira Code', monospace" font-size="11" font-weight="bold" fill="#EF4444">LIVE REC</text>
+    <text x="130" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Système NVR 8 Voies PoE • 1080p Full HD</text>
+    <text x="410" y="22" font-family="'Fira Code', monospace" font-size="10" fill="#38BDF8">192.168.1.120</text>
+
+    <!-- 4 CCTV Camera Feeds Grid -->
+    <!-- Cam 1 (Entrée principale) -->
+    <g transform="translate(15, 48)">
+      <rect width="225" height="115" rx="6" fill="#0E1626" stroke="#1E293B" stroke-width="1"/>
+      <!-- Grid crosshair -->
+      <line x1="112" y1="10" x2="112" y2="105" stroke="#334155" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="20" y1="57" x2="205" y2="57" stroke="#334155" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <!-- Icon Cam -->
+      <circle cx="112" cy="57" r="22" fill="#1E293B" opacity="0.6"/>
+      <text x="104" y="62" font-size="16">📹</text>
+      <text x="10" y="20" font-family="'Fira Code', monospace" font-size="9" fill="#22C55E">CAM 01 : Entrée Principale</text>
+      <text x="10" y="105" font-family="'Fira Code', monospace" font-size="8" fill="#64748B">30 FPS • Bitrate 4096 kbps</text>
+    </g>
+
+    <!-- Cam 2 (Zone stockage & atelier) -->
+    <g transform="translate(260, 48)">
+      <rect width="225" height="115" rx="6" fill="#0E1626" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="112" cy="57" r="22" fill="#1E293B" opacity="0.6"/>
+      <text x="104" y="62" font-size="16">📹</text>
+      <text x="10" y="20" font-family="'Fira Code', monospace" font-size="9" fill="#22C55E">CAM 02 : Atelier &amp; Stock</text>
+      <text x="10" y="105" font-family="'Fira Code', monospace" font-size="8" fill="#64748B">Vision Nocturne IR Active</text>
+    </g>
+
+    <!-- Cam 3 (Périmètre Extérieur) -->
+    <g transform="translate(15, 172)">
+      <rect width="225" height="115" rx="6" fill="#0E1626" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="112" cy="57" r="22" fill="#1E293B" opacity="0.6"/>
+      <text x="104" y="62" font-size="16">📹</text>
+      <text x="10" y="20" font-family="'Fira Code', monospace" font-size="9" fill="#22C55E">CAM 03 : Façade Extérieure</text>
+      <text x="10" y="105" font-family="'Fira Code', monospace" font-size="8" fill="#64748B">Câble Cat6 blindé FTP</text>
+    </g>
+
+    <!-- Cam 4 (Baie réseau & serveurs) -->
+    <g transform="translate(260, 172)">
+      <rect width="225" height="115" rx="6" fill="#0E1626" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="112" cy="57" r="22" fill="#1E293B" opacity="0.6"/>
+      <text x="104" y="62" font-size="16">📹</text>
+      <text x="10" y="20" font-family="'Fira Code', monospace" font-size="9" fill="#22C55E">CAM 04 : Salle Réseau / Switch</text>
+      <text x="10" y="105" font-family="'Fira Code', monospace" font-size="8" fill="#64748B">Alimentation PoE 48V OK</text>
+    </g>
+  </g>
+</svg>
